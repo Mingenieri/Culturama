@@ -44,7 +44,7 @@ class _InicioSesionState extends State<InicioSesion> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        centerTitle: true,
+        // centerTitle: true,
       ),
       body: Center(
         child: Column(

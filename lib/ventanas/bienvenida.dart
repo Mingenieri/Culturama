@@ -1,4 +1,5 @@
 import 'package:culturama/ventanas/inicio_sesion.dart';
+import 'package:culturama/ventanas/registro.dart';
 import 'package:flutter/material.dart';
 import 'package:culturama/recursos/colores.dart';
 
@@ -140,7 +141,11 @@ class _BienvenidaState extends State<Bienvenida> {
 
             ElevatedButton(
               onPressed: () {
-
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => Registro())
+                );
               },
               style: ElevatedButton.styleFrom(
                 minimumSize: Size(340, 40),

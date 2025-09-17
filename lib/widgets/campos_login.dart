@@ -26,10 +26,10 @@ class CamposLogin extends StatelessWidget {
             decoration: InputDecoration(
               labelText: "Correo electronico",
               labelStyle: TextStyle(
-                fontFamily: 'Montserrat', // fuente que quieres usar
-                fontSize: 16, // tamaño del texto
-                fontWeight: FontWeight.bold, // grosor
-                color: Colors.grey, // color opcional
+                fontFamily: 'Montserrat',
+                fontSize: 16,
+                fontWeight: FontWeight.bold,
+                color: Colors.grey,
               ),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(8),
@@ -49,10 +49,10 @@ class CamposLogin extends StatelessWidget {
             decoration: InputDecoration(
               labelText: "Contraseña",
               labelStyle: TextStyle(
-                fontFamily: 'Montserrat', // fuente que quieres usar
-                fontSize: 16, // tamaño del texto
-                fontWeight: FontWeight.bold, // grosor
-                color: Colors.grey, // color opcional
+                fontFamily: 'Montserrat',
+                fontSize: 16,
+                fontWeight: FontWeight.bold,
+                color: Colors.grey,
               ),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(8),
